@@ -1,0 +1,84 @@
+/* app.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-bar {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.top-bar .logo {
+  font-size: 1.5em;
+}
+
+.top-bar .links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.blog-posts {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-post-container {
+  width: calc(50% - 20px); /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.blog-post {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  margin-top: 0;
+}
+
+.post-meta {
+  color: #777;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.restaurant-link {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.restaurant-link:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+}
