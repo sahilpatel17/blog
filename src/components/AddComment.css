@@ -1,0 +1,46 @@
+/* src/components/AddComment.css */
+.add-comment {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-comment h2 {
+    margin-top: 0;
+  }
+  
+  .add-comment form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-comment label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .add-comment textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: vertical;
+  }
+  
+  .add-comment button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-comment button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,58 @@
+/* src/components/BlogDetail.css */
+.blog-detail {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .blog-detail h2 {
+    margin-top: 0;
+  }
+  
+  .post-meta {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .restaurant-link:hover {
+    text-decoration: underline;
+  }
+  
+  .like-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .like-button:hover {
+    background-color: #0056b3;
+  }
+  
